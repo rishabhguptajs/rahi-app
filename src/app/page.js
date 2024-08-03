@@ -2,6 +2,7 @@
 // import Image from "next/image";
 import Header from "@/components/Header";
 import Search from "@/components/Search";
+import VacationPlan from "@/components/Vacation";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
         
        <Header />
        {/* <Search /> */}
+       {/* <VacationPlan /> */}
      </div>
   );
 }
